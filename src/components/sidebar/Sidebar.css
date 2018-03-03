@@ -1,0 +1,14 @@
+.Sidebar {
+  flex-grow: 1;
+  background-color: blue;
+  min-width: 280px;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.Sidebar_Avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  background-color: white;
+}
