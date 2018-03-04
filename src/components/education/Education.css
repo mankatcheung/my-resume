@@ -1,0 +1,25 @@
+.Education {
+  flex-grow: 1;
+  margin: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.Education_TitleWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 8px;
+}
+
+.Education_Icon {
+  width: 36px;
+  height: 36px;
+}
+
+.Education_Title {
+  color: black;
+  margin-left: 16px;
+  font-size: 18pt;
+}

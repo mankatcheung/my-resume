@@ -1,0 +1,25 @@
+.Skill {
+  flex-grow: 1;
+  margin: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.Skill_TitleWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 8px;
+}
+
+.Skill_Icon {
+  width: 36px;
+  height: 36px;
+}
+
+.Skill_Title {
+  color: black;
+  margin-left: 16px;
+  font-size: 18pt;
+}
