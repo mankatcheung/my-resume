@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import Chip from 'material-ui/Chip';
 import './Skill.css';
+import ActionBuild from 'material-ui/svg-icons/action/build';
 
 const styles = {
   chip: {
@@ -19,7 +20,7 @@ export default class Skill extends Component {
     return (
       <div className="Skill">
         <div className="Skill_TitleWrapper" >
-          <img className="Skill_Icon" src="002-mortarboard.svg" />
+          <ActionBuild />
           <div className="Skill_Title">Skills</div>
         </div>
         <div style={styles.wrapper}>

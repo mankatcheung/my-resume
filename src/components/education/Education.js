@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Education.css';
+import SocialSchool from 'material-ui/svg-icons/social/school';
 
 export default class Education extends Component {
 
@@ -7,7 +8,7 @@ export default class Education extends Component {
     return (
       <div className="Education">
         <div className="Education_TitleWrapper" >
-          <img className="Education_Icon" src="002-mortarboard.svg" />
+          <SocialSchool/>
           <div className="Education_Title">Educations</div>
         </div>
         {
