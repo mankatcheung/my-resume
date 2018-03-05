@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
+  padding: 8px;
 }
 
 .Education_TitleWrapper {
@@ -24,6 +25,13 @@
 }
 
 .Education_School {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.Education_SchoolHeader {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -48,4 +56,11 @@
 
 .Education_SchoolDate {
 
+}
+
+.Education_Awards {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  padding: 20px;
 }

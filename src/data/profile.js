@@ -3,7 +3,7 @@ const profile = {
   title: 'Full Stack Developer',
   mail: 'jeffman231@hotmail.com',
   phoneNumber: '+852 60399780',
-  linkedin: 'linkedin.com/in/sbaydin',
+  linkedin: 'linkedin.com/in/jeff-man-18476996/',
   github: 'github.com/mankatcheung',
   imagePath: 'jeff-avatar.png',
   twitter: null,

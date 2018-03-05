@@ -3,6 +3,7 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import Chip from 'material-ui/Chip';
 import './Skill.css';
 import ActionBuild from 'material-ui/svg-icons/action/build';
+import Paper from 'material-ui/Paper';
 
 const styles = {
   chip: {
@@ -18,7 +19,7 @@ export default class Skill extends Component {
 
   render() {
     return (
-      <div className="Skill">
+      <Paper className="Skill">
         <div className="Skill_TitleWrapper" >
           <ActionBuild />
           <div className="Skill_Title">Skills</div>
@@ -30,7 +31,7 @@ export default class Skill extends Component {
           )
         }
         </div>
-      </div>
+      </Paper>
     );
   }
 }

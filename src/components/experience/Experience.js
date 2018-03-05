@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Experience.css';
 import ActionWork from 'material-ui/svg-icons/action/work';
+import Paper from 'material-ui/Paper';
 
 export default class Experience extends Component {
   render() {
     return (
-      <div className="Experience">
+      <Paper className="Experience">
         <div className="Experience_TitleWrapper" >
           <ActionWork />
           <div className="Experience_Title">Experiences</div>
@@ -30,7 +31,7 @@ export default class Experience extends Component {
                       <div className='Experience_ProjectName'>{project.name}</div>
                       <div className='Experience_ProjectDate'>{project.begin} - {project.end}</div>
                     </div>
-                    {/* <div className='Experience_ProjectComment'>{project.comment}</div> */}
+                    <div className='Experience_ProjectComment'>{project.comment}</div>
                   </div>
                   )
                 }
@@ -38,7 +39,7 @@ export default class Experience extends Component {
             </div>
           )
         }
-      </div>
+      </Paper>
     );
   }
 }

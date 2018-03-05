@@ -2,7 +2,7 @@ const educations = {
   sectionTitle: '',
   schools: [
     {
-      name: "Hong Kong University of Science and Technolog",
+      name: "Hong Kong University of Science and Technology",
       program: "BSc in Mathematics",
       begin: 'Sep 2010',
       end: 'Jun 2013',
