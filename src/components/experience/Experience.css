@@ -1,5 +1,4 @@
 .Experience {
-  flex-grow: 1;
   margin: 8px;
   display: flex;
   flex-flow: column nowrap;
@@ -22,4 +21,50 @@
   color: black;
   margin-left: 16px;
   font-size: 18pt;
+}
+
+.Experience_Company {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Experience_CompanyHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Experience_CompanyNameTitleWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.Experience_CompanyJobTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Experience_ProjectContainer {
+  margin: 0 8px 0 16px;
+  width: 100%;
+}
+
+.Experience_Project {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Experience_ProjectHeader {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
 }

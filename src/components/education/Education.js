@@ -10,26 +10,23 @@ export default class Education extends Component {
           <img className="Education_Icon" src="002-mortarboard.svg" />
           <div className="Education_Title">Educations</div>
         </div>
-        <ul>
-          {
-            this.props.schools.map(d => 
-              <li key={d.name}>
+        {
+          this.props.schools.map(d => 
+            <div className='Education_School' key={d.name}>
+              <div className='Education_SchoolNameProgramWrapper'>
                 <div className='Education_SchoolName'>
-                 {d.name}
+                {d.name}
                 </div>
                 <div className='Education_SchoolProgram'>
-                 {d.program}
+                {d.program}
                 </div>
-                <div className='Education_SchoolBegin'>
-                 {d.begin}
-                </div>
-                <div className='Education_SchoolEnd'>
-                 {d.end}
-                </div>
-              </li>
-            )
-          }
-        </ul>
+              </div>
+              <div className='Education_SchoolDate'>
+                {d.begin} - {d.end}
+              </div>
+            </div>
+          )
+        }
       </div>
     );
   }
