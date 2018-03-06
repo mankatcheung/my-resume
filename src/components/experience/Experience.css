@@ -27,7 +27,7 @@
 .Experience_Company {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-start;
+  align-items: stretch;
   width: 100%;
 }
 
@@ -36,7 +36,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 0 8px;
 }
 
 .Experience_CompanyNameTitleWrapper {
@@ -45,31 +45,53 @@
   align-items: flex-start;
 }
 
+.Experience_CompanyName {
+  text-align: left;
+}
+
 .Experience_CompanyJobTitle {
   font-weight: bold;
   font-size: 18px;
+  text-align: left;
+}
+
+.Experience_CompanyDate {
+  text-align: right;
 }
 
 .Experience_ProjectContainer {
-  margin: 8px 0 0 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  padding: 8px 8px 0 32px;
 }
 
 .Experience_Project {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-start;
-  width: 100%;
+  align-items: stretch;
   margin-bottom: 16px;
 }
 
 .Experience_ProjectHeader {
-  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-
+  align-items: center;
 }
 
-.Experience_ProjectComment {
+.Experience_ProjectDate {
+  font-size: 12px;
+  text-align: right;
+}
+
+.Experience_ProjectComments {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  padding-left: 16px;
+}
+
+.Experience_Comment {
   text-align: left;
 }
