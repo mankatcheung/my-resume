@@ -27,8 +27,8 @@ const experiences = {
             "More than 10K daily active users"
           ],
           links: {
-            ios: "https://play.google.com/store/apps/details?id=com.grandsoft.instagrab&hl=en",
-            android: "https://itunes.apple.com/us/app/grab-for-ig/id546639267?mt=8"
+            android: "https://play.google.com/store/apps/details?id=com.grandsoft.instagrab&hl=en",
+            ios: "https://itunes.apple.com/us/app/grab-for-ig/id546639267?mt=8"
           }
         },
         {
