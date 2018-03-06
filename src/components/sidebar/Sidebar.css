@@ -7,7 +7,7 @@
 }
 
 .Sidebar_Header {
-  background-color: #00f2ff;
+  background-color: white;
   padding: 20px 0;
 }
 
@@ -21,7 +21,7 @@
 
 .Sidebar_Contact {
   flex-grow: 1;
-  background-color: rgb(0, 195, 255);
+  background-color: white;
   padding: 30px;
 }
 
@@ -34,4 +34,5 @@
 
 .Sidebar_ContactItem {
   margin-left: 8px;
+  text-align: left;
 }

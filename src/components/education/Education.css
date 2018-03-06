@@ -33,7 +33,7 @@
 
 .Education_SchoolHeader {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 8px;
@@ -45,10 +45,6 @@
   text-align: left;
 }
 
-.Education_SchoolProgram {
-
-}
-
 .Education_SchoolNameProgramWrapper {
   display: flex;
   flex-flow: column nowrap;
@@ -56,7 +52,8 @@
 }
 
 .Education_SchoolDate {
-  text-align: right;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .Education_Awards {

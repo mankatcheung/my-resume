@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import Chip from 'material-ui/Chip';
 import './Skill.css';
 import ActionBuild from 'material-ui/svg-icons/action/build';

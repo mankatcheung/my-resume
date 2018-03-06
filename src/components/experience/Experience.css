@@ -33,7 +33,7 @@
 
 .Experience_CompanyHeader {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 8px;
@@ -56,7 +56,8 @@
 }
 
 .Experience_CompanyDate {
-  text-align: right;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .Experience_ProjectContainer {
@@ -75,14 +76,15 @@
 
 .Experience_ProjectHeader {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .Experience_ProjectDate {
   font-size: 12px;
-  text-align: right;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .Experience_ProjectComments {
@@ -94,4 +96,21 @@
 
 .Experience_Comment {
   text-align: left;
+}
+
+.Experience_Links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.Experience_Links > a{
+  margin-right: 16px;
+}
+
+.Experience_AppStore {
+  width: 120px;
+  height: 40px;
 }
