@@ -4,6 +4,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Education from './components/education/Education';
 import Experience from './components/experience/Experience';
 import Skill from './components/skill/Skill';
+import Interest from './components/interest/Interest';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Paper from 'material-ui/Paper';
 import fontawesome from '@fortawesome/fontawesome'
@@ -21,6 +22,7 @@ class App extends Component {
             <Education {...this.props.education}/>
             <Experience {...this.props.experience}/>
             <Skill {...this.props.skill}/>
+            <Interest/>
           </div>
         </Paper>
       </MuiThemeProvider>
