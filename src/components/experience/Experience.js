@@ -3,6 +3,7 @@ import './Experience.css';
 import ActionWork from 'material-ui/svg-icons/action/work';
 import FileDownload from 'material-ui/svg-icons/file/file-download';
 import Paper from 'material-ui/Paper';
+import Chip from 'material-ui/Chip';
 
 export default class Experience extends Component {
   render() {
@@ -45,6 +46,14 @@ export default class Experience extends Component {
                             </div>
                           )
                         }
+                        <div className='Experience_Stacks'>
+                        <div>- Stacks:</div>
+                        {
+                          project.stacks.map((s, sid) =>
+                            <Chip key={sid} style={{margin: 4}}>{s}</Chip>
+                          )
+                        }
+                        </div>
                         <div className='Experience_Links'>
                           {
                             (project.hasOwnProperty('links') && project.links.hasOwnProperty('ios')) ?

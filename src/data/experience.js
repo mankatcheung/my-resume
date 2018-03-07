@@ -15,8 +15,15 @@ const experiences = {
             "A third-party app provided better user experience for Instagram by using Instagram official API",
             "Backup function for Instagram posts by using Google Drive and iCloud API",
             "More than 200K daily active users",
-            "Native iOS (Obj. C) and Android Development",
             "Permanently down due to Instagram policy changed"
+          ],
+          stacks: [
+            'iOS Development (Objective C)',
+            'Android Development (Java)',
+            'Instagram API',
+            'Google Drive API',
+            'iCloud API',
+            'Dropbox API'
           ]
         },
         {
@@ -26,6 +33,15 @@ const experiences = {
           comments: [
             "An app for storing Instagram posts and uploading the posts to Google Drive/iCloud and Dropbox",
             "More than 10K daily active users"
+          ],
+          stacks: [
+            'iOS Development (Objective C)',
+            'Android Development (Java)',
+            'Android Studio',
+            'VIPER Architecture',
+            'Google Drive API',
+            'iCloud API',
+            'Dropbox API'
           ],
           links: {
             android: "https://play.google.com/store/apps/details?id=com.grandsoft.instagrab&hl=en",
@@ -37,11 +53,16 @@ const experiences = {
           begin: 'Mar 2016',
           end: 'Sep 2016',
           comments: [
-            "A social network app which is similar to Instagram for the Mainland market",
-            "Client side: Native iOS, Swift, Flux architecture, ReSwift",
-            "Server side: Golang, microservices architecture, Docker",
-            "Hosting: Aliyun",
-            "Database: PostgreSQL"
+            "A social network app which is similar to Instagram for the Mainland market"
+          ],
+          stacks: [
+            'iOS Development (Swift)',
+            'Flux Architecture',
+            'Golang',
+            'Docker',
+            'Microservices Architecture',
+            'Aliyun',
+            'PostgreSQL'
           ],
           links: {
             ios: "https://itunes.apple.com/cn/app/%E5%90%8C%E4%BA%AB-%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/id1215979862?mt=8"
@@ -52,15 +73,13 @@ const experiences = {
           begin: 'Sep 2016',
           end: 'Aug 2017',
           comments: [
-            "A database monitoring tool for optimizing the performance of database",
-            "Client side: Vue.js, Vuex, Vue-router, webpack",
-            "Server side: Ruby on Rails",
-            "Database: MySQL"
+            "A database monitoring tool for optimizing the performance of database"
           ],
           stacks: [
-           {
-             name: 'Ruby on Rails'
-           }
+            'Ruby on Rails',
+            'Vue.js',
+            'Flux Architecture',
+            'MySQL'
           ],
           links: {
             url: 'https://www.navicat.com/en/products/navicat-monitor'
