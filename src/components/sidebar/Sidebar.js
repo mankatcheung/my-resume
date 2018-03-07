@@ -32,6 +32,16 @@ export default class Sidebar extends Component {
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
             <Linkify className='Sidebar_ContactItem'> {this.props.linkedin} </Linkify>
           </div>
+          <div className="Sidebar_Language">
+            <div className="Sidebar_LanguageTitle">Languages: </div>
+            <div className="Sidebar_LanguageItem">
+              {
+                this.props.languages.map((lang, index) =>
+                  <div>{lang.name} ({lang.level})</div>
+                )
+              }
+            </div>
+          </div>
         </div>
       </div>
     );

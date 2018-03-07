@@ -6,21 +6,11 @@ const profile = {
   linkedin: 'linkedin.com/in/jeff-man-18476996/',
   github: 'github.com/mankatcheung',
   imagePath: 'jeff-avatar.png',
-  twitter: null,
-  educationDetails: {
-    sectionTitle: '',
-    list: [
-      { name: 'BSc in Mathematics', school: 'Hong Kong University of Science and Technology', date: '2013' },
-    ]
-  },
-  languages: {
-    sectionTitle: 'Languages',
-    list: [{ name: 'Turkish', level: 'Native' }, { name: 'English', level: 'Professional' }, { name: 'Spanish', level: 'Beginner' }]
-  },
-  interests: {
-    sectionTitle: '',
-    list: ['Travel', 'Guitar', 'Gymnastic']
-  }
+  languages: [
+    { name: 'Cantonese', level: 'Native' },
+    { name: 'Mandarin ', level: 'Fluent' },
+    { name: 'English', level: 'Fluent' }
+  ]
 };
 
 export default profile;

@@ -37,3 +37,18 @@
   margin-left: 8px;
   text-align: left;
 }
+
+.Sidebar_Language {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.Sidebar_LanguageTitle {
+  margin-right: 8px;
+}
+
+.Sidebar_LanguageItem {
+  text-align: left;
+}
