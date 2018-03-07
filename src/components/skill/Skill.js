@@ -25,8 +25,8 @@ export default class Skill extends Component {
         </div>
         <div style={styles.wrapper}>
         {
-          this.props.list.map( s =>
-            <Chip style={styles.chip}>{s}</Chip>
+          this.props.list.map((s, index) =>
+            <Chip key={index} style={styles.chip}>{s}</Chip>
           )
         }
         </div>

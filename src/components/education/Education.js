@@ -13,8 +13,8 @@ export default class Education extends Component {
           <div className="Education_Title">Educations</div>
         </div>
         {
-          this.props.schools.map(d => 
-            <div className='Education_School' key={d.name}>
+          this.props.schools.map((d, index) => 
+            <div className='Education_School' key={index}>
               <div className='Education_SchoolHeader'>
                 <div className='Education_SchoolNameProgramWrapper'>
                   <div className='Education_SchoolName'>
@@ -30,8 +30,8 @@ export default class Education extends Component {
               </div>
               { d.awards !== null ? 
                 (<div className='Education_Awards'>
-                  {d.awards.map(award =>
-                    <div className='Education_AwardItem'>
+                  {d.awards.map((award, aid) =>
+                    <div className='Education_AwardItem' key={aid}>
                      - {award}
                     </div>
                   )}
