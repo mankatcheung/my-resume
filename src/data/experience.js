@@ -2,6 +2,7 @@ const experiences = {
   companies: [
     {
       name: 'PremiumSoft CyberTech Limited',
+      url: 'https://www.navicat.com/en/company/aboutus',
       jobTitle: 'Senior Software Developer',
       begin: 'Apr 2014',
       end: 'Aug 2017',
@@ -47,7 +48,7 @@ const experiences = {
           }
         },
         {
-          name: 'Server Monitor',
+          name: 'Navicat Monitor',
           begin: 'Sep 2016',
           end: 'Aug 2017',
           comments: [
@@ -55,7 +56,15 @@ const experiences = {
             "Client side: Vue.js, Vuex, Vue-router, webpack",
             "Server side: Ruby on Rails",
             "Database: MySQL"
-          ]
+          ],
+          stacks: [
+           {
+             name: 'Ruby on Rails'
+           }
+          ],
+          links: {
+            url: 'https://www.navicat.com/en/products/navicat-monitor'
+          }
         }
       ]
     }
