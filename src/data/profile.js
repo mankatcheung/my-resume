@@ -10,7 +10,13 @@ const profile = {
     { name: 'Cantonese', level: 'Native' },
     { name: 'Mandarin ', level: 'Fluent' },
     { name: 'English', level: 'Fluent' }
-  ]
+  ],
+  about: {
+    text: `
+     I loves learning new technologies and working on awesome projects. 
+     Currently, I'm a big fan of flux architechture, such as React.js and Vue.js. 
+     Feeling free to contact me if you get some cool projects which needs me!`
+  }
 };
 
 export default profile;
