@@ -22,7 +22,7 @@ export default class Sidebar extends Component {
           </div>
           <div className="Sidebar_ContactItemWrapper">
             <CommunicationCall /> 
-            <div className='Sidebar_ContactItem'> {this.props.phoneNumber} </div>
+            <a className='Sidebar_ContactItem' href={'tel:' + this.props.phoneNumber}> {this.props.phoneNumber} </a>
           </div>
           <div className="Sidebar_ContactItemWrapper">
             <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
