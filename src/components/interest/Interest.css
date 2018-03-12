@@ -26,7 +26,11 @@
 
 .Interest_Map {
   width: 100%;
-  overflow: scroll;
+}
+
+.Interest_Map img {
+  max-width:  100%;
+  max-height: 100%;
 }
 
 .Interest_About {
