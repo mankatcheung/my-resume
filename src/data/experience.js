@@ -12,10 +12,10 @@ const experiences = {
           begin: 'Apr 2014',
           end: 'Mar 2016',
           comments: [
-            "A third-party app provided better user experience for Instagram by using Instagram official API",
-            "Backup function for Instagram posts by using Google Drive and iCloud API",
-            "More than 200K daily active users",
-            "Permanently down due to Instagram policy changed"
+            "A third-party app provided better user experience for Instagram by using Instagram official API.",
+            "Backup function for Instagram posts by using Google Drive and iCloud API.",
+            "More than 200K daily active users.",
+            "Permanently shutted down due to Instagram policy changed."
           ],
           stacks: [
             'iOS Development (Objective C)',
@@ -31,8 +31,8 @@ const experiences = {
           begin: 'Mar 2016',
           end: 'Apr 2016',
           comments: [
-            "An app for storing Instagram posts and uploading the posts to Google Drive/iCloud and Dropbox",
-            "More than 10K daily active users"
+            "An app for storing Instagram posts and uploading the posts to Google Drive/iCloud and Dropbox.",
+            "More than 10K daily active users."
           ],
           stacks: [
             'iOS Development (Objective C)',
@@ -53,11 +53,13 @@ const experiences = {
           begin: 'Mar 2016',
           end: 'Sep 2016',
           comments: [
-            "A social network app which is similar to Instagram for the Mainland market"
+            "A social network app which is similar to Instagram for the Mainland market.",
+            "The whole development team was relocated to Shanghai for 6 months."
           ],
           stacks: [
             'iOS Development (Swift)',
             'Flux Architecture',
+            'Node.js',
             'Golang',
             'Docker',
             'Microservices Architecture',
@@ -73,7 +75,8 @@ const experiences = {
           begin: 'Sep 2016',
           end: 'Aug 2017',
           comments: [
-            "A database monitoring tool for optimizing the performance of database"
+            "A database monitoring tool for optimizing the performance of database.",
+            "The beta version was released recently."
           ],
           stacks: [
             'Ruby on Rails',

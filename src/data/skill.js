@@ -9,6 +9,7 @@ const skills = {
     'Android Developerment (Java)',
     'Golang',
     'Ruby on Rails',
+    'Node.js',
     'Docker',
     'MySQL',
     'PostgreSQL',
