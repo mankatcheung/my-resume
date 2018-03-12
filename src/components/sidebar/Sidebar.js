@@ -37,7 +37,7 @@ export default class Sidebar extends Component {
             <div className="Sidebar_LanguageItem">
               {
                 this.props.languages.map((lang, index) =>
-                  <div>{lang.name} ({lang.level})</div>
+                  <div key={index}>{lang.name} ({lang.level})</div>
                 )
               }
             </div>
