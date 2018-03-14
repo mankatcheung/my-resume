@@ -4,6 +4,7 @@ import ActionWork from 'material-ui/svg-icons/action/work';
 import FileDownload from 'material-ui/svg-icons/file/file-download';
 import Paper from 'material-ui/Paper';
 import Chip from 'material-ui/Chip';
+import Linkify from 'react-linkify';
 
 export default class Experience extends Component {
   render() {
@@ -42,12 +43,12 @@ export default class Experience extends Component {
                           project.comments.map((c, cid) => 
                             <div className='Experience_Comment'
                                  key={cid}>
-                            - {c}
+                              <Linkify>- {c}</Linkify>
                             </div>
                           )
                         }
                         <div className='Experience_Stacks'>
-                        <div>- Stacks:</div>
+                        <div>- Stack:</div>
                         {
                           project.stacks.map((s, sid) =>
                             <Chip key={sid} style={{margin: 4}}>{s}</Chip>

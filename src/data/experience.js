@@ -13,7 +13,9 @@ const experiences = {
           end: 'Mar 2016',
           comments: [
             "A third-party app provided better user experience for Instagram by using Instagram official API.",
+            "The winner of the Webby Award (Mobile Sites & Web Best Use of Mobile Camera) in 2015 (https://www.webbyawards.com/winners/2015/mobile-sites-apps/features-categories/best-use-ofmobile-camera/instagrab-your-instagram-companion/)",
             "Backup function for Instagram posts by using Google Drive and iCloud API.",
+            "A steady income was made by adding Google Admob.",
             "More than 200K daily active users.",
             "Permanently shutted down due to Instagram policy changed."
           ],
@@ -31,8 +33,8 @@ const experiences = {
           begin: 'Mar 2016',
           end: 'Apr 2016',
           comments: [
-            "An app for storing Instagram posts and uploading the posts to Google Drive/iCloud and Dropbox.",
-            "More than 10K daily active users."
+            "A modified version of previous project 'Instagrab'.",
+            "More than 50K daily active users."
           ],
           stacks: [
             'iOS Development (Objective C)',
